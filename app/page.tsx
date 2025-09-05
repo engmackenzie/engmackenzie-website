@@ -7,7 +7,6 @@ import Image from "next/image"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gray-900">
-      Some change in dev not in Prod
       {/* Hero Section */}
       <section className="relative py-20 px-4 text-center bg-gradient-to-br from-gray-800 via-gray-900 to-emerald-900/20">
         <div className="max-w-4xl mx-auto">
