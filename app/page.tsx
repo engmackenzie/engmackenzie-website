@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Code, Database, Cloud } from "lucide-react"
+import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Code, Database, Cloud, X } from "lucide-react"
 import Image from "next/image"
 
 export default function HomePage() {
@@ -496,8 +496,19 @@ export default function HomePage() {
               asChild
               className="gap-2 border-emerald-500/50 text-white hover:bg-emerald-500/10 bg-transparent"
             >
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/engmackenzie" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
+                LinkedIn
+              </a>
+            </Button>
+            <Button
+              variant="outline"
+              size="lg"
+              asChild
+              className="gap-2 border-emerald-500/50 text-white hover:bg-emerald-500/10 bg-transparent"
+            >
+              <a href="https://www.linkedin.com/in/engmakenzi" target="_blank" rel="noopener noreferrer">
+                <X className="w-5 h-5" />
                 LinkedIn
               </a>
             </Button>
