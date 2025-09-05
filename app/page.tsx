@@ -507,9 +507,9 @@ export default function HomePage() {
               asChild
               className="gap-2 border-emerald-500/50 text-white hover:bg-emerald-500/10 bg-transparent"
             >
-              <a href="https://www.linkedin.com/in/engmakenzi" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/engmakenzi" target="_blank" rel="noopener noreferrer">
                 <X className="w-5 h-5" />
-                LinkedIn
+                X
               </a>
             </Button>
           </div>
