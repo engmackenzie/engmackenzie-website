@@ -29,7 +29,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild className="gap-2 bg-emerald-600 text-white hover:bg-emerald-700">
-              <a href="mailto:stevomakenzi@gmail.com">
+              <a href="mailto:stephen.mz.waweru@gmail.com">
                 <Mail className="w-4 h-4" />
                 Contact Me
               </a>
@@ -89,7 +89,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="w-5 h-5 text-emerald-400" />
-                <span>stevomakenzi@gmail.com</span>
+                <span>stephen.mz.waweru@gmail.com</span>
               </div>
             </div>
           </div>
@@ -474,7 +474,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="gap-2 bg-emerald-600 text-white hover:bg-emerald-700">
-              <a href="mailto:stevomakenzi@gmail.com">
+              <a href="mailto:stephen.mz.waweru@gmail.com">
                 <Mail className="w-5 h-5" />
                 Send Email
               </a>
